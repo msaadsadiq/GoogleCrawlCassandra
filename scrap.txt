@@ -1,0 +1,17 @@
+ function base64_encode(file) {
+    // read binary data
+    var bitmap = fs.readFileSync(file);
+    // convert binary data to base64 encoded string
+    return new Buffer(bitmap).toString('base64');
+}
+
+var base64str = base64_encode('/home/ddmadmin/Downloads/Saad/google-images-master/1.jpg');
+
+
+
+var base64data = base64Img.base64Sync('/home/ddmadmin/Downloads/Saad/google-images-master/1.jpg');
+
+
+var filepath = base64Img.imgSync(data, '/home/ddmadmin/Downloads/Saad/google-images-master', 'file2.jpg');
+
+

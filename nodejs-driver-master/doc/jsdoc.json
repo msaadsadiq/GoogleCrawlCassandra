@@ -1,0 +1,21 @@
+{
+  "source": {
+    "include": [
+      "lib/types",
+      "lib/auth",
+      "lib/policies",
+      "lib/metadata",
+      "lib/client.js",
+      "lib/execution-profile.js",
+      "lib/encoder.js",
+      "lib/errors.js",
+      "lib/host.js"
+    ]
+  },
+  "templates": {
+    "default": {
+      "outputSourceFiles": false
+    }
+  },
+  "plugins": ["doc/doc-plugin"]
+}
